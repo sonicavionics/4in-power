@@ -28,6 +28,8 @@
 **.kicad_sch-bak
 **/backups/
 
+# KiCad user-specific project settings
+*.kicad_prl
 
 # KiCad lock files
 **/*.lck
