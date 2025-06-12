@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -9,41 +9,42 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -53,7 +54,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -61,16 +61,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference yes)
-			(plotvalue yes)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
@@ -127,19 +130,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3fa82e5-24c0-4512-a1db-e777b710ef7d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -265,18 +255,6 @@
 			(layer "F.Fab")
 			(uuid "c0ac61a8-91e4-4d36-abc5-22731e4bd616")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e873c725-7841-4b43-ac59-310b49c9dd62")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.7 1.7)
@@ -288,6 +266,7 @@
 			(pintype "passive")
 			(uuid "9ef22c6c-7e5f-4b40-8702-1aa53fe1aa69")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -326,19 +305,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5dfc6002-49c9-4004-bfd2-74ed4d1a63f5")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -545,30 +511,6 @@
 			(layer "F.Fab")
 			(uuid "06093ba8-4fc5-4137-ba5e-1080f75209f3")
 		)
-		(fp_text user "PCB Edge"
-			(at 0 3.43 0)
-			(layer "Dwgs.User")
-			(hide yes)
-			(uuid "43302381-9aa8-4b46-b8e6-46bdf1928181")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 1.18 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b12bc31-96d2-4a45-af7a-eb3137e843aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "" np_thru_hole circle
 			(at -2.89 -1.45 180)
 			(size 0.6 0.6)
@@ -586,7 +528,7 @@
 		(pad "A1" smd rect
 			(at -3.2 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -595,7 +537,7 @@
 		(pad "A4" smd rect
 			(at -2.4 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
@@ -604,7 +546,7 @@
 		(pad "A5" smd rect
 			(at -1.25 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "Net-(J6-CC1)")
 			(pinfunction "CC1")
 			(pintype "bidirectional")
@@ -613,7 +555,7 @@
 		(pad "A6" smd rect
 			(at -0.25 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "unconnected-(J6-D+-PadA6)")
 			(pinfunction "D+")
 			(pintype "bidirectional+no_connect")
@@ -622,7 +564,7 @@
 		(pad "A7" smd rect
 			(at 0.25 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "unconnected-(J6-D--PadA7)")
 			(pinfunction "D-")
 			(pintype "bidirectional+no_connect")
@@ -631,7 +573,7 @@
 		(pad "A8" smd rect
 			(at 1.25 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "unconnected-(J6-SBU1-PadA8)")
 			(pinfunction "SBU1")
 			(pintype "bidirectional+no_connect")
@@ -640,7 +582,7 @@
 		(pad "A9" smd rect
 			(at 2.4 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
@@ -649,7 +591,7 @@
 		(pad "A12" smd rect
 			(at 3.2 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -658,7 +600,7 @@
 		(pad "B1" smd rect
 			(at 3.2 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -667,7 +609,7 @@
 		(pad "B4" smd rect
 			(at 2.4 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
@@ -676,7 +618,7 @@
 		(pad "B5" smd rect
 			(at 1.75 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "Net-(J6-CC2)")
 			(pinfunction "CC2")
 			(pintype "bidirectional")
@@ -685,7 +627,7 @@
 		(pad "B6" smd rect
 			(at 0.75 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "unconnected-(J6-D+-PadB6)")
 			(pinfunction "D+")
 			(pintype "bidirectional+no_connect")
@@ -694,7 +636,7 @@
 		(pad "B7" smd rect
 			(at -0.75 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "unconnected-(J6-D--PadB7)")
 			(pinfunction "D-")
 			(pintype "bidirectional+no_connect")
@@ -703,7 +645,7 @@
 		(pad "B8" smd rect
 			(at -1.75 -2.51 180)
 			(size 0.3 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "unconnected-(J6-SBU2-PadB8)")
 			(pinfunction "SBU2")
 			(pintype "bidirectional+no_connect")
@@ -712,7 +654,7 @@
 		(pad "B9" smd rect
 			(at -2.4 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "+5V")
 			(pinfunction "VBUS")
 			(pintype "passive")
@@ -721,7 +663,7 @@
 		(pad "B12" smd rect
 			(at -3.2 -2.51)
 			(size 0.6 1.16)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -771,6 +713,7 @@
 			(pintype "passive")
 			(uuid "285690d1-4f85-4e79-92f8-a368b243abbe")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 -1.25 0)
@@ -808,19 +751,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b88ccfd6-5a0d-4494-9901-603c94da2b2d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1129,7 +1059,7 @@
 		(pad "1" smd roundrect
 			(at -0.7875 0)
 			(size 0.875 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 20 "Net-(D1-K)")
 			(pinfunction "K")
@@ -1139,13 +1069,14 @@
 		(pad "2" smd roundrect
 			(at 0.7875 0)
 			(size 0.875 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 8 "+3.3V")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "48e4e4e6-734b-4ae9-b21b-d7d22ecd1763")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1183,19 +1114,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e45d110f-9f83-4b6a-9007-b36083c8157f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1468,7 +1386,7 @@
 		(pad "1" smd roundrect
 			(at -0.51 0 90)
 			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "GND")
 			(pintype "passive")
@@ -1477,12 +1395,13 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 90)
 			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 10 "Net-(J6-CC1)")
 			(pintype "passive")
 			(uuid "afe42a9c-eb7d-4504-ae71-fd01da43b18c")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1521,19 +1440,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52bc820d-0983-46b1-9e89-948ed85c0921")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1659,18 +1565,6 @@
 			(layer "F.Fab")
 			(uuid "4fab725e-7ede-4063-8df1-34de7c8b17f0")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ecc07536-120c-4900-af0b-3e6b776d05d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.7 1.7)
@@ -1682,6 +1576,7 @@
 			(pintype "passive")
 			(uuid "59ebc019-cac5-4652-a782-a09c38cfce81")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1723,21 +1618,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "559dd9f6-6858-4d88-a885-11aa6940fb20")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1750,7 +1632,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1763,7 +1645,7 @@
 			)
 		)
 		(property "JLC Link" "https://jlcpcb.com/partdetail/26648-0402WGF5101TCE/C25905"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1776,7 +1658,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25905"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1789,7 +1671,7 @@
 			)
 		)
 		(property "basic?" "yes"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1802,7 +1684,7 @@
 			)
 		)
 		(property "info" "5.1k ohm"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1815,7 +1697,7 @@
 			)
 		)
 		(property "price" "C$0.0006"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1828,7 +1710,7 @@
 			)
 		)
 		(property "notes" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1841,7 +1723,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1854,7 +1736,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1867,7 +1749,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1880,7 +1762,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1893,7 +1775,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2004,7 +1886,7 @@
 		(pad "1" smd roundrect
 			(at -0.51 0 270)
 			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 11 "Net-(J6-CC2)")
 			(pintype "passive")
@@ -2013,12 +1895,13 @@
 		(pad "2" smd roundrect
 			(at 0.51 0 270)
 			(size 0.54 0.64)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "GND")
 			(pintype "passive")
 			(uuid "00037054-ff56-426c-ac5c-5177c0856734")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2056,19 +1939,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fabcdbc-d410-4f6d-9aca-caf98a5ae4a8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2341,7 +2211,7 @@
 		(pad "1" smd roundrect
 			(at -0.825 0)
 			(size 0.8 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 21 "Net-(D2-K)")
 			(pintype "passive")
@@ -2350,12 +2220,13 @@
 		(pad "2" smd roundrect
 			(at 0.825 0)
 			(size 0.8 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "GND")
 			(pintype "passive")
 			(uuid "58c06bc3-780f-4abf-bfb8-33aa0ce4c7df")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2394,19 +2265,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "44d7b1e4-565d-4a7b-b311-59c670db6382")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2532,18 +2390,6 @@
 			(layer "F.Fab")
 			(uuid "9bb7a342-5dc4-4b77-bd25-89cd84abe2f9")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14fff0b8-0ea8-40e7-9722-a84e88be3189")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole rect
 			(at 0 0)
 			(size 1.7 1.7)
@@ -2555,6 +2401,7 @@
 			(pintype "passive")
 			(uuid "8b211b0b-48c7-465d-99a5-a53912474ec8")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2593,19 +2440,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "011b8ec5-c52f-469b-b2f5-b2c45f2e61c7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2731,18 +2565,6 @@
 			(layer "F.Fab")
 			(uuid "ee050013-d3eb-45a9-84e1-7be45266efef")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 1.27 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7f058f1-f090-411d-ac3b-d0ab4bda984d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
 			(size 1.7 1.7)
@@ -2765,6 +2587,7 @@
 			(pintype "passive")
 			(uuid "269f993e-a582-49ad-99b2-90beebaf732e")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2802,19 +2625,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5a91f099-aeaf-45b8-a775-fa02f490178d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3123,7 +2933,7 @@
 		(pad "1" smd roundrect
 			(at -0.7875 0 180)
 			(size 0.875 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 21 "Net-(D2-K)")
 			(pinfunction "K")
@@ -3133,13 +2943,14 @@
 		(pad "2" smd roundrect
 			(at 0.7875 0 180)
 			(size 0.875 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 9 "+5V")
 			(pinfunction "A")
 			(pintype "passive")
 			(uuid "d994f6b3-9266-4d87-bd58-cade5067a019")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3177,19 +2988,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e8d8db2f-7498-4cc3-90b6-db6abcfef9ee")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3462,7 +3260,7 @@
 		(pad "1" smd roundrect
 			(at -0.825 0 180)
 			(size 0.8 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 20 "Net-(D1-K)")
 			(pintype "passive")
@@ -3471,12 +3269,13 @@
 		(pad "2" smd roundrect
 			(at 0.825 0 180)
 			(size 0.8 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 7 "GND")
 			(pintype "passive")
 			(uuid "d8e328d5-d58b-4b26-8985-2343ee001c60")
 		)
+		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3517,20 +3316,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Connector_PCBEdge:BUS_PCIexpress_x1"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "effea571-6bb2-4d2b-84c5-772feabd29f7")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -4098,31 +3883,6 @@
 			(layer "B.CrtYd")
 			(uuid "f2c73ed8-f023-40d0-9b3f-3ca19d6fe148")
 		)
-		(fp_text user "PCB Thickness 1.57 mm"
-			(at 5 -2.8 180)
-			(layer "Cmts.User")
-			(hide yes)
-			(uuid "5c6e69ec-38d9-4d1e-8f65-02d08d2cdc38")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 16 3.5 180)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2c507431-4103-4aa5-b97a-b04e23fee8ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(pad "A1" connect rect
 			(at 0 0)
 			(size 0.7 4.3)
@@ -4447,26 +4207,27 @@
 			(pintype "passive")
 			(uuid "9f1c765f-4ff0-44e2-9bb6-42f87c47739a")
 		)
+		(embedded_fonts no)
 	)
 	(gr_line
 		(start 176.761588 122.419976)
 		(end 176.761588 110.582785)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "04bcfc47-87cf-4e14-8156-5f6fe0e849ba")
 	)
 	(gr_line
 		(start 160.46283 63.542634)
 		(end 163.828722 69.195595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "0a5c18bc-0245-4dbe-b710-5c2583bdfb8c")
 	)
@@ -4474,45 +4235,45 @@
 		(pts
 			(xy 116.064072 110.582785) (xy 116.064072 102.168691) (xy 110.08283 102.09411) (xy 110.08283 97.349976)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "1900ad41-b1ea-46de-bfbc-a344bb9d2422")
 	)
 	(gr_circle
 		(center 186.869858 82.98983)
 		(end 190.219858 82.98983)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "2519a56c-9c03-4582-8424-11dd99083b58")
 	)
 	(gr_line
 		(start 176.761588 122.419976)
 		(end 188.391588 122.419976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "3cc6cbbb-90e9-4d11-856d-7ecdc6e73b9a")
 	)
 	(gr_line
 		(start 132.36283 55.589976)
 		(end 132.36283 63.542634)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "4527bdcd-9dc7-42b8-833c-31f02ae72021")
 	)
@@ -4520,11 +4281,11 @@
 		(start 169.093841 72.428299)
 		(mid 166.06306 71.460529)
 		(end 163.828722 69.195595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "4e87d886-009b-4bb4-bc61-b5b38a7db551")
 	)
@@ -4532,22 +4293,22 @@
 		(start 128.996938 69.195595)
 		(mid 126.762593 71.460521)
 		(end 123.731819 72.428299)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "55d5e59c-bb72-4f58-a029-4f73e0080a1a")
 	)
 	(gr_line
 		(start 160.46283 63.542634)
 		(end 160.46283 55.589976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "57386d1f-0660-4114-b77e-3c4c5c49848c")
 	)
@@ -4555,11 +4316,11 @@
 		(pts
 			(xy 175.191636 75.176812) (xy 173.874457 73.386186) (xy 171.841859 72.470015) (xy 169.093841 72.428299)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "66ec8c42-05ef-480a-bbd3-d4e3f92e3cf4")
 	)
@@ -4567,22 +4328,22 @@
 		(pts
 			(xy 117.634024 75.176812) (xy 118.951203 73.386186) (xy 120.983801 72.470015) (xy 123.731819 72.428299)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "6e220411-51d3-46ae-9c71-c8141b4ffc49")
 	)
 	(gr_line
 		(start 116.064072 122.419976)
 		(end 116.064072 110.582785)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "7914a6b1-5768-4477-ad53-16df46fd7222")
 	)
@@ -4590,23 +4351,23 @@
 		(pts
 			(xy 176.761588 110.582785) (xy 176.761588 102.168691) (xy 182.74283 102.09411) (xy 182.74283 97.349976)
 		)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "7eb41564-c372-4915-a262-b07bbc2614a0")
 	)
 	(gr_circle
 		(center 123.2831 65.793456)
 		(end 126.6331 65.793456)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "94885078-9cfb-451c-bbcd-20311a8226ff")
 	)
@@ -4614,22 +4375,22 @@
 		(start 104.434072 122.419976)
 		(mid 146.41283 48.454976)
 		(end 188.391588 122.419976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "98d0680b-6f38-4cd4-9501-e12587862934")
 	)
 	(gr_line
 		(start 116.064072 122.419976)
 		(end 104.434072 122.419976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "a37d883a-0cfe-4003-a002-596d95992d60")
 	)
@@ -4637,11 +4398,11 @@
 		(start 175.191636 75.176812)
 		(mid 180.803257 85.638126)
 		(end 182.74283 97.349976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "a93a1458-3b54-4e12-8fbc-5c7a868a43eb")
 	)
@@ -4649,103 +4410,103 @@
 		(start 110.08283 97.349976)
 		(mid 112.022403 85.638126)
 		(end 117.634024 75.176812)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "bf89cc6e-47cc-4ea4-bf08-dd147fd7577a")
 	)
 	(gr_line
 		(start 132.36283 63.542634)
 		(end 128.996938 69.195595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "c45a8c40-2763-405c-a6a6-ebf239ab50cb")
 	)
 	(gr_circle
 		(center 105.955802 82.98983)
 		(end 109.305802 82.98983)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "d88e786c-38c8-4023-bf62-295e3dfd2315")
 	)
 	(gr_line
 		(start 132.36283 55.589976)
 		(end 160.46283 55.589976)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "e1598690-6b98-429f-9257-d8401f99593a")
 	)
 	(gr_circle
 		(center 109.412355 110.068595)
 		(end 112.762355 110.068595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "e53e43ab-1d4c-4a17-aa92-e96c144c4247")
 	)
 	(gr_circle
 		(center 169.54256 65.793456)
 		(end 172.89256 65.793456)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "f508199a-a3a2-4d38-ac7b-24c94fa5abfa")
 	)
 	(gr_circle
 		(center 183.413305 110.068595)
 		(end 186.763305 110.068595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "f654469c-a9c2-40af-8366-93937de29316")
 	)
 	(gr_line
 		(start 118.464529 64.282339)
 		(end 104.593785 108.557478)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "05c17d39-2ab9-4410-8181-8f87a5fddca6")
 	)
 	(gr_line
 		(start 133.14799 68.834133)
 		(end 126.942317 62.311255)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "0ab4f831-b50b-462e-9562-c35b1198df25")
 	)
@@ -4753,11 +4514,11 @@
 		(start 157.070952 69.144862)
 		(mid 156.717428 68.998403)
 		(end 156.570952 68.644862)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "121c9dd3-d1ac-4619-992b-cec46eed3be1")
 	)
@@ -4765,11 +4526,11 @@
 		(start 106.210207 113.971788)
 		(mid 104.57385 111.511867)
 		(end 104.593785 108.557478)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "22893a58-848c-481a-aa59-8e3a69762194")
 	)
@@ -4777,33 +4538,33 @@
 		(start 118.464529 64.282339)
 		(mid 122.139956 60.87328)
 		(end 126.942317 62.311255)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "2c9cc411-5894-419e-9b1c-923ec2d6b42a")
 	)
 	(gr_line
 		(start 159.678621 68.834133)
 		(end 165.884293 62.311255)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "321e220d-c31a-4bb4-bf51-fe150c4d1198")
 	)
 	(gr_line
 		(start 158.954117 69.144862)
 		(end 157.070952 69.144862)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "383008ad-2d60-488d-bcf8-d2dfd84e06b8")
 	)
@@ -4811,23 +4572,23 @@
 		(start 177.714704 121.27317)
 		(mid 176.212727 122.123624)
 		(end 174.512081 122.418595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "409fafb4-8853-4ecb-8f5c-67ddee5102e5")
 	)
 	(gr_circle
 		(center 183.41378 110.067214)
 		(end 180.06378 110.067214)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "5483444d-ec06-44ae-9408-745a517281cf")
 	)
@@ -4835,34 +4596,34 @@
 		(start 188.232825 108.557478)
 		(mid 188.252725 111.511859)
 		(end 186.616403 113.971788)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "57aa3087-d18e-42b0-8855-22418c51a63b")
 	)
 	(gr_circle
 		(center 169.543036 65.792075)
 		(end 166.193036 65.792075)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "591b6a1c-c541-4038-88ef-e9f0eddb0fe9")
 	)
 	(gr_line
 		(start 174.512081 122.418595)
 		(end 118.314529 122.418595)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "607d16c0-4ead-4ea6-ad64-659526bf4fe7")
 	)
@@ -4870,35 +4631,35 @@
 		(start 118.314529 122.418595)
 		(mid 116.613891 122.123609)
 		(end 115.111906 121.27317)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "60ab245a-ce54-4480-b2e1-d38935db03dd")
 	)
 	(gr_circle
 		(center 123.283575 65.792075)
 		(end 119.933575 65.792075)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "67a5c094-496f-44d0-9e4a-c88a0b1af927")
 	)
 	(gr_circle
 		(center 109.41283 110.067214)
 		(end 106.06283 110.067214)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
-		(fill none)
+		(fill no)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "694d4b4e-70be-4446-a69c-6f977af73f8e")
 	)
@@ -4906,22 +4667,22 @@
 		(start 133.872493 69.144862)
 		(mid 133.478329 69.063905)
 		(end 133.14799 68.834133)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "7c7260b2-5c39-4e7f-915a-3003bfd1d33c")
 	)
 	(gr_line
 		(start 186.616403 113.971788)
 		(end 177.714704 121.27317)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "7fc03867-52c0-40d0-9042-4ac9ca6e4f34")
 	)
@@ -4929,22 +4690,22 @@
 		(start 159.678621 68.834133)
 		(mid 159.348285 69.063922)
 		(end 158.954117 69.144862)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "99e25eed-44ef-463e-bda4-2839ebf3a6a5")
 	)
 	(gr_line
 		(start 106.210207 113.971788)
 		(end 115.111906 121.27317)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "b7412035-c942-4964-971d-7924028fb992")
 	)
@@ -4952,33 +4713,33 @@
 		(start 136.255658 68.644862)
 		(mid 136.109222 68.998429)
 		(end 135.755658 69.144862)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "bd0ad66e-bfa7-4e9d-987c-e0344d507420")
 	)
 	(gr_line
 		(start 174.362081 64.282339)
 		(end 188.232825 108.557478)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e3c86def-8a4a-467c-92f9-1790fadecae5")
 	)
 	(gr_line
 		(start 133.872493 69.144862)
 		(end 135.755658 69.144862)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "e9450fca-965f-4768-b50f-31e775c92ba6")
 	)
@@ -4986,11 +4747,11 @@
 		(start 165.884293 62.311255)
 		(mid 170.68666 60.873267)
 		(end 174.362081 64.282339)
-		(locked yes)
 		(stroke
 			(width 0.25)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "fecf4cbd-d017-420d-b6b9-4cf684b45352")
 	)
@@ -6985,7 +6746,7 @@
 	(zone
 		(net 7)
 		(net_name "GND")
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "3dbca934-2711-469c-8acd-f7ae417480e1")
 		(hatch edge 0.5)
 		(connect_pads
@@ -7941,7 +7702,7 @@
 		(net 0)
 		(net_name "")
 		(locked yes)
-		(layers "F&B.Cu")
+		(layers "F.Cu" "B.Cu")
 		(uuid "9a97a873-b659-4cb6-ace1-26a43e0866ca")
 		(name "keepout")
 		(hatch edge 0.5)
@@ -7957,6 +7718,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -7967,4 +7732,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
