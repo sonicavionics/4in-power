@@ -1,4 +1,4 @@
-25607996336723432
+25609746951183553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71968,6 +71968,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 POWERLIB
 2-SMD
+
+
+0
+2
+2
+POWERLIB
+IND-SMD_L7.0-W6.6
 
 
 0
