@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "SLF7055T-6R8N2R8-3PF")(type "KiCad")(uri "${KIPRJMOD}/library/SLF7055T-6R8N2R8-3PF")(options "")(descr ""))
+  (lib (name "POWERLIB")(type "KiCad")(uri "C:/Users/antho/OneDrive/Desktop/sonic/4in-power/POWERLIB.pretty")(options "")(descr ""))
 )
