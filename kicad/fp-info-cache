@@ -1,4 +1,4 @@
-25609746951183553
+25611497573514471
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -72001,6 +72001,13 @@ STM6779YWB6F
 0
 6
 6
+POWERLIB
+TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW
+
+
+0
+3
+3
 POWERLIB
 TSOT23-8_MP2236C_MNP
 
