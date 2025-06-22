@@ -3,4 +3,6 @@
   (lib (name "SLF7055T-6R8N2R8-3PF")(type "KiCad")(uri "${KIPRJMOD}/library/SLF7055T-6R8N2R8-3PF/SLF7055T-6R8N2R8-3PF.kicad_sym")(options "")(descr ""))
   (lib (name "2025-02-04_05-25-16")(type "KiCad")(uri "/Users/anth/Documents/GitHub/4in-power/2025-02-04_05-25-16.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "C:/Users/antho/Downloads/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "powermodule")(type "KiCad")(uri "C:/Users/antho/OneDrive/Desktop/sonic/4in-power/powermodule.kicad_sym")(options "")(descr ""))
+  (lib (name "nce3080k_")(type "KiCad")(uri "C:/Users/antho/OneDrive/Desktop/sonic/4in-power/nce3080k_.kicad_sym")(options "")(descr ""))
 )

@@ -4929,6 +4929,390 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "NCE3080K_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q2"
+				(at 8.89 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCE3080K"
+				(at 7.112 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "POWERLIB:TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "Wuxi NCE Power Semiconductor Co. – datasheet available from LCSC"
+				(at -0.508 -3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-channel enhancement-mode power MOSFET, 30 V, 80 A"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Comment" "—"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part #" "C108901"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Basic?" "no"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Price" "approx. US $0.04 (per unit in small quantities)"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Info" "Trench MOSFET, low R<sub>DS(on)</sub>, avalanche-rated"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Digikey Link" "—"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "JLC Link" "JLCPCB part detail page for NCE3080K — assembly/ordering available"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Current Draw" "Up to 80 A continuous drain current, low on-resistance"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "Notes" "R<sub>DS(on)</sub> < 6.5 mΩ @ V<sub>GS</sub>=10 V; < 10 mΩ @ V<sub>GS</sub>=5 V "
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify top)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCE3080K_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NCE3080K_1_1_0"
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 2.54 1.778) (xy 2.54 1.778) (xy 2.54 2.54) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 2.54)
+						(xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.524 -0.508) (xy 1.524 -0.508) (xy 1.524 0.508) (xy 1.524 0.508) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -2.54)
+						(xy 5.08 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.778) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.508) (xy 4.318 -0.762) (xy 4.318 -0.762) (xy 5.842 -0.762) (xy 5.842 -0.762) (xy 5.08 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 0.508) (xy 5.588 0.508) (xy 5.588 0.508) (xy 4.572 0.508) (xy 4.572 0.508) (xy 4.064 0.508)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 160 0 0 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCE3080K_1_1_1"
+				(text "1"
+					(at -2.032 1.27 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "2"
+					(at 3.81 4.318 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "3"
+					(at 4.064 -4.572 900)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TS-1187A-B-A-B:TS-1187A-B-A-B"
 			(pin_names
 				(offset 1.016)
@@ -6788,464 +7172,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "powermodule:AO3400"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AO3400A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SYMBOL" "AO3400A_C347475"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DEVICE" "AO3400A_C347475"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART" "C347475"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "UMW(友台半导体)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART" "AO3400A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER FOOTPRINT" "SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "JLCPCB PART CLASS" "Extended Part"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ADD INTO BOM" "yes"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "CONVERT TO PCB" "yes"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TYPE" "1 N-Channel"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "CONTINUOUS DRAIN CURRENT (ID)" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "POWER DISSIPATION (PD)" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "OPERATING TEMPERATURE" "-55℃~+150℃"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3400_1_0"
-				(polyline
-					(pts
-						(xy -3.048 2.286) (xy -3.048 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.286) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.778) (xy 0 1.778) (xy 0 1.778) (xy 0 2.54) (xy 0 2.54) (xy 2.54 2.54) (xy 2.54 2.54)
-						(xy 2.54 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.016 -0.508) (xy -1.016 -0.508) (xy -1.016 0.508) (xy -1.016 0.508) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0 0) (xy 0 0) (xy 0 -2.54) (xy 0 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -0.508) (xy -2.54 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.286) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.778) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.694 0.569) (xy 3.32 0.569)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0.508) (xy 1.778 -0.762) (xy 1.778 -0.762) (xy 3.302 -0.762) (xy 3.302 -0.762) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-						(color 160 0 0 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.032)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -9615,6 +9541,12 @@
 		(uuid "064de25f-9d0f-4fd5-9812-8d2552f410d7")
 	)
 	(junction
+		(at 384.81 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070564c4-9257-4997-b358-93e61eb89186")
+	)
+	(junction
 		(at 193.04 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9655,12 +9587,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12006a77-5257-469d-ac2f-b63e034cbe1f")
-	)
-	(junction
-		(at 383.54 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12c61b98-4726-4005-aa62-ad065ff53f68")
 	)
 	(junction
 		(at 153.67 213.36)
@@ -9763,12 +9689,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36bbe0f9-357c-4f47-b082-55a868278140")
-	)
-	(junction
-		(at 396.24 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38b06215-0572-43a5-a734-b7e1d73c941d")
 	)
 	(junction
 		(at 320.04 60.96)
@@ -9895,6 +9815,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64d88120-31b9-426e-a854-10322363c656")
+	)
+	(junction
+		(at 396.24 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "658f720a-3cb0-49a9-b034-ac36976c9f24")
 	)
 	(junction
 		(at 193.04 118.11)
@@ -10462,16 +10388,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 203.2) (xy 372.11 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04bb883c-4bc3-4a40-8922-2cfa08947435")
-	)
-	(wire
-		(pts
 			(xy 379.73 125.73) (xy 387.35 125.73)
 		)
 		(stroke
@@ -10549,16 +10465,6 @@
 			(type default)
 		)
 		(uuid "097be83c-605f-4159-a8f0-f826e47998ff")
-	)
-	(wire
-		(pts
-			(xy 384.81 203.2) (xy 383.54 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6b4bf9-fb55-49b3-a366-b0f9972b8950")
 	)
 	(wire
 		(pts
@@ -10719,16 +10625,6 @@
 			(type default)
 		)
 		(uuid "112be52f-a42e-40b5-984c-4d86db89f5ea")
-	)
-	(wire
-		(pts
-			(xy 377.19 193.04) (xy 377.19 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11367df5-b57d-487a-a528-2fd3a5c8e739")
 	)
 	(wire
 		(pts
@@ -11582,7 +11478,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 190.5) (xy 383.54 190.5)
+			(xy 377.19 190.5) (xy 389.89 190.5)
 		)
 		(stroke
 			(width 0)
@@ -11659,16 +11555,6 @@
 			(type default)
 		)
 		(uuid "4f513a1f-e9b3-4142-ae74-8d740273d14f")
-	)
-	(wire
-		(pts
-			(xy 383.54 190.5) (xy 383.54 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f60a130-e867-43a7-85f0-b41c48cb0d82")
 	)
 	(wire
 		(pts
@@ -12442,6 +12328,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 187.96) (xy 396.24 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79cdcee9-806d-4993-80bd-bdde36a7db7b")
+	)
+	(wire
+		(pts
 			(xy 154.94 102.87) (xy 154.94 114.3)
 		)
 		(stroke
@@ -12982,6 +12878,16 @@
 	)
 	(wire
 		(pts
+			(xy 396.24 203.2) (xy 396.24 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9454effc-fbb0-4d19-8098-a81337b98047")
+	)
+	(wire
+		(pts
 			(xy 143.51 102.87) (xy 143.51 91.44)
 		)
 		(stroke
@@ -13072,6 +12978,16 @@
 	)
 	(wire
 		(pts
+			(xy 383.54 203.2) (xy 384.81 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99c4970a-a909-4c84-9f28-d35907dae796")
+	)
+	(wire
+		(pts
 			(xy 210.82 55.88) (xy 245.11 55.88)
 		)
 		(stroke
@@ -13092,6 +13008,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 200.66) (xy 384.81 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b4654e1-2f81-4237-9332-809083f647ae")
+	)
+	(wire
+		(pts
 			(xy 66.04 39.37) (xy 77.47 39.37)
 		)
 		(stroke
@@ -13109,6 +13035,16 @@
 			(type default)
 		)
 		(uuid "9c529fa3-8f7f-4f5e-ad3a-a6d650cc7792")
+	)
+	(wire
+		(pts
+			(xy 378.46 193.04) (xy 377.19 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1a6eac-6623-4f1d-8126-15e6a9a500c0")
 	)
 	(wire
 		(pts
@@ -13209,16 +13145,6 @@
 			(type default)
 		)
 		(uuid "a29f77af-8166-411c-b2d5-7b2c4801523c")
-	)
-	(wire
-		(pts
-			(xy 396.24 213.36) (xy 396.24 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2af0bf2-7f8a-4320-8643-99d17cb23803")
 	)
 	(wire
 		(pts
@@ -13499,6 +13425,16 @@
 			(type default)
 		)
 		(uuid "b3dc6bf1-126c-42ac-b205-eb03a6f608e4")
+	)
+	(wire
+		(pts
+			(xy 394.97 203.2) (xy 396.24 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b435525c-ea4f-450f-995e-886c8251164c")
 	)
 	(wire
 		(pts
@@ -13839,6 +13775,16 @@
 			(type default)
 		)
 		(uuid "c87ec8d9-624c-4166-815d-9cf0514ff444")
+	)
+	(wire
+		(pts
+			(xy 378.46 193.04) (xy 378.46 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4fe98c-3354-495e-bbff-60936140bc50")
 	)
 	(wire
 		(pts
@@ -14212,6 +14158,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 190.5) (xy 389.89 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8994be-3e76-4fa7-8a86-10205c594171")
+	)
+	(wire
+		(pts
 			(xy 325.12 199.39) (xy 325.12 200.66)
 		)
 		(stroke
@@ -14362,16 +14318,6 @@
 	)
 	(wire
 		(pts
-			(xy 394.97 203.2) (xy 396.24 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb84b5bb-c2da-43ee-b7b5-81fb840aeadc")
-	)
-	(wire
-		(pts
 			(xy 184.15 182.88) (xy 184.15 187.96)
 		)
 		(stroke
@@ -14482,6 +14428,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 203.2) (xy 373.38 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4f41768-97ae-4f4c-8b00-06de7b5ecc5b")
+	)
+	(wire
+		(pts
 			(xy 90.17 200.66) (xy 73.66 200.66)
 		)
 		(stroke
@@ -14569,26 +14525,6 @@
 			(type default)
 		)
 		(uuid "fce734dd-9d1d-4bfb-94d0-4d9450d0176e")
-	)
-	(wire
-		(pts
-			(xy 396.24 203.2) (xy 396.24 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd23fd86-8727-4df0-b4fa-b694a7ebd5d3")
-	)
-	(wire
-		(pts
-			(xy 383.54 203.2) (xy 382.27 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd3bcdaa-cdc6-4016-b867-fb5b581223c5")
 	)
 	(wire
 		(pts
@@ -16325,6 +16261,28 @@
 		(uuid "c6b28953-9f05-4e6b-bd70-cda07c7abe13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 307.4828 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FET"
+		(shape input)
+		(at 384.81 200.66 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c83a8a8f-cabe-404c-ab7c-9f7223829650")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 384.81 194.4696 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29463,6 +29421,169 @@
 		)
 	)
 	(symbol
+		(lib_name "NCE3080K_1")
+		(lib_id "powermodule:NCE3080K")
+		(at 378.46 200.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79043728-6ab8-4f50-8771-632fe79cea81")
+		(property "Reference" "Q2"
+			(at 378.46 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCE3080K"
+			(at 378.46 207.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "POWERLIB:TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Wuxi NCE Power Semiconductor Co. – datasheet available from LCSC"
+			(at 375.412 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel enhancement-mode power MOSFET, 30 V, 80 A"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Comment" "—"
+			(at 378.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C108901"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Basic?" "no"
+			(at 378.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Price" "approx. US $0.04 (per unit in small quantities)"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Info" "Trench MOSFET, low R<sub>DS(on)</sub>, avalanche-rated"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "—"
+			(at 378.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "JLCPCB part detail page for NCE3080K — assembly/ordering available"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" "Up to 80 A continuous drain current, low on-resistance"
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Notes" "R<sub>DS(on)</sub> < 6.5 mΩ @ V<sub>GS</sub>=10 V; < 10 mΩ @ V<sub>GS</sub>=5 V "
+			(at 374.65 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eda17748-4cea-4102-8f23-68ab2ae85fae")
+		)
+		(pin "1"
+			(uuid "84e5f663-cfbd-40da-97c1-6bf01352f639")
+		)
+		(pin "2"
+			(uuid "2d4c862e-1f66-4c53-be4e-eb1ae67b55bb")
+		)
+		(instances
+			(project ""
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 274.32 100.33 0)
 		(mirror y)
@@ -29810,288 +29931,6 @@
 			(project "power"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powermodule:AO3400")
-		(at 389.89 203.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "849ac867-1bf5-40a6-8941-02b184c0aa28")
-		(property "Reference" "Q1"
-			(at 389.89 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 389.89 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" "AO3400A_C347475"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" "AO3400A_C347475"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART" "C347475"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UMW(友台半导体)"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART" "AO3400A"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER FOOTPRINT" "SOT-23"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "LCSC"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" "yes"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" "yes"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "1 N-Channel"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTINUOUS DRAIN CURRENT (ID)" ""
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER DISSIPATION (PD)" ""
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55℃~+150℃"
-			(at 389.89 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "13242a8d-9663-47f6-a266-0b65844e16f8")
-		)
-		(pin "3"
-			(uuid "74809f43-d0fc-4c6f-947f-e41ce65a7e84")
-		)
-		(pin "1"
-			(uuid "ea405d08-858d-45be-b9d1-4abf38a1413d")
-		)
-		(instances
-			(project ""
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -38445,7 +38284,7 @@
 				)
 			)
 		)
-		(property "Value" "S-8252AAL-M6T1U"
+		(property "Value" "HY2120-CB"
 			(at 356.87 180.34 0)
 			(effects
 				(font
@@ -38463,22 +38302,113 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "STM6779YWB6F"
+		(property "Datasheet" "HYCON Tech HY2120‑CB (available via LCSC/JLCPCB) (lcsc.com)"
 			(at 377.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2‑cell Li‑ion/Li‑polymer battery protection IC, 1.5–10 V"
 			(at 377.19 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Comment" "—"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C116509"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Basic?" "no"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "≈ US $0.2066 each (for 5+) / as low as US $0.0896 in larger volumes"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Info" "Battery management IC"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "—"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "JLCPCB assembly availability (HY2120‑CB)"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" "Not specified"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Packaged in SOT‑23‑6, RoHS compliant, in stock (~85 units)"
+			(at 336.55 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -38850,288 +38780,6 @@
 			(project "power"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "powermodule:AO3400")
-		(at 377.19 203.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8f94395-5dc0-4854-ab83-6cc689d78895")
-		(property "Reference" "Q2"
-			(at 377.19 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 377.19 212.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20231109/50AB4FB4D66E55864F9B8D027B723C9A.pdf"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SYMBOL" "AO3400A_C347475"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DEVICE" "AO3400A_C347475"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC PART NAME" "1个N沟道 耐压:30V 电流:5.8A"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART" "C347475"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "UMW(友台半导体)"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART" "AO3400A"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER FOOTPRINT" "SOT-23"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB PART CLASS" "Extended Part"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER" "LCSC"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "ADD INTO BOM" "yes"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONVERT TO PCB" "yes"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TYPE" "1 N-Channel"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DRAIN SOURCE VOLTAGE (VDSS)" ""
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "CONTINUOUS DRAIN CURRENT (ID)" ""
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "DRAIN SOURCE ON RESISTANCE (RDS(ON)@VGS,ID)" "28mΩ@10V,5.8A"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "POWER DISSIPATION (PD)" ""
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "GATE THRESHOLD VOLTAGE (VGS(TH)@ID)" "1.4V@250uA"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "TOTAL GATE CHARGE (QG@VGS)" "12nC@10V"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "INPUT CAPACITANCE (CISS@VDS)" "1050pF@24V"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "REVERSE TRANSFER CAPACITANCE (CRSS@VDS)" "77pF@15V"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "OPERATING TEMPERATURE" "-55℃~+150℃"
-			(at 377.19 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edde5439-71ab-478b-80c6-d7fcfab4e271")
-		)
-		(pin "3"
-			(uuid "b81ab8e7-aed5-47dd-ae90-b78698e27521")
-		)
-		(pin "1"
-			(uuid "179a0014-a28b-4343-87f3-2bde09c41f58")
-		)
-		(instances
-			(project "power"
-				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -41527,6 +41175,170 @@
 			(project "power"
 				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NCE3080K_1")
+		(lib_id "powermodule:NCE3080K")
+		(at 389.89 200.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f123afa2-7c6c-4aea-9a31-ea37163dc4c6")
+		(property "Reference" "Q1"
+			(at 389.89 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCE3080K"
+			(at 389.89 207.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "POWERLIB:TO-252-2_L6.6-W6.1-P4.57-LS9.9-TL-CW"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Wuxi NCE Power Semiconductor Co. – datasheet available from LCSC"
+			(at 392.938 200.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-channel enhancement-mode power MOSFET, 30 V, 80 A"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Comment" "—"
+			(at 389.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C108901"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Basic?" "no"
+			(at 389.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Price" "approx. US $0.04 (per unit in small quantities)"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Info" "Trench MOSFET, low R<sub>DS(on)</sub>, avalanche-rated"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Digikey Link" "—"
+			(at 389.89 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "JLC Link" "JLCPCB part detail page for NCE3080K — assembly/ordering available"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Current Draw" "Up to 80 A continuous drain current, low on-resistance"
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Notes" "R<sub>DS(on)</sub> < 6.5 mΩ @ V<sub>GS</sub>=10 V; < 10 mΩ @ V<sub>GS</sub>=5 V "
+			(at 393.7 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4a0e1f75-bbdf-4416-a0bb-fc17f0a90e2b")
+		)
+		(pin "1"
+			(uuid "db967ab7-9d93-4674-a768-58fc4056c500")
+		)
+		(pin "2"
+			(uuid "7e489226-83a9-4901-9d16-e0f0e22cb6e4")
+		)
+		(instances
+			(project "power"
+				(path "/612ece3f-e722-4b33-8111-645d24cfcf05"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
